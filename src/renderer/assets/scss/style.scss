@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  min-height: 100vh;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+svg {
+  cursor: pointer;
+}
+
+.todo .card .item .left p.lin-through {
+  text-decoration: line-through;
+}
+
+.todo .card .item .right {
+  gap: 5px;
+  display: flex;
+}
+
+.todo .contents {
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
